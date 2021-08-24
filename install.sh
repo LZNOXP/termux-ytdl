@@ -1,8 +1,8 @@
 #!/bin/bash
-set -euo pipefail
+#set -euo pipefail
 # Basic setup
-termux-setup-storage
-sleep 2
+#termux-setup-storage
+#sleep 2
 
 #Clean Install
 if [[ ! -d ~/bin ]]; then
