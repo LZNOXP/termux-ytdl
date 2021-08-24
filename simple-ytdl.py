@@ -463,7 +463,7 @@ def main(argv):
     #     'https://www.instagram.com/p/CRdyJdEA7y0/?utm_source=ig_web_button_share_sheet'
     # ]
     # argv = ['-p', 'D:']
-    argv = ['--setup']
+    # argv = ['--setup']
     if config.load():
         set_global_variables()
     process_cmd_arguments(argv)
